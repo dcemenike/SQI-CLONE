@@ -1,0 +1,138 @@
+* {
+    margin: px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+    }
+
+.nav-bar {
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-img {
+    width: 80px;
+    margin-top: 5px;
+}
+
+.nav-links {
+    margin-right: 10%;
+}
+
+.nav-links li {
+    padding: 0 15px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:#00208A;
+    font-size: 14px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+}
+
+.header {
+    margin: 20px 10% 20px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.bg-header {
+    width: 500px;
+}
+
+.header h1 {
+    background-color: #FFFEF3;
+    color: #000E42;
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    line-height: 110% ;
+}
+
+.header p{
+    color: #474747;
+    font-size: 16px;
+    line-height: 28.8px;
+    font-family: poppins, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.btn{
+    padding: 15px 35px;
+    background-color: #00208A;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn a{
+    color: #FFF8FB;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+h2{
+    color: #050754;
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 42px;
+    margin-left: 10%;
+}
+
+.img-container{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    column-gap: 50px;
+}
+
+.img{
+    filter: saturate(0);
+    width: 320px;
+    height: 320px;
+}
+
+.card-h3{
+    color: #000E54;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-para{
+color: #666666;
+font-size: 14px;
+line-height: 23.1px;
+font-weight: 500;
+}
+
+.card-btn{
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #26364E;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px ;
+    margin-top: 20px;
+}
+
+.card-btn a{
+    text-decoration: none;
+}
+
+.second-section{
+    margin: 50px 10% 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: space-evenly; */
+    column-gap: 50px;
+}
+
